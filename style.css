@@ -1,0 +1,40 @@
+:root{
+    --toboo-blue: #14aaf5;
+    --toobo-purple: #ab5de6;
+    --toboo-lightgreen: #2dc6ab;
+    --toboo-orange: #ff9b00;
+    --toboo-pink: #ec4a9d;
+    --toboo-green: #a3d116;
+}
+body{
+    background-color: #f6f8f9;
+}
+/* logo and title setting */
+.logo-title{
+    background-color: white;
+    margin-top: 0px;
+    
+}
+img{
+    width: 100px;
+    padding-right: 10px;
+    vertical-align: middle;
+    
+    
+    
+}
+h1{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 70px;
+    vertical-align: middle;
+
+}
+/* main setting */
+.nav-setting{
+    display: inline-block;
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 100px;
+    padding-left: 50px;
+}

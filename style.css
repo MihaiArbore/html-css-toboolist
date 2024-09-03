@@ -31,10 +31,25 @@ h1{
 
 }
 /* main setting */
-.nav-setting{
-    display: inline-block;
+.box1-setting{
     background-color: white;
-    margin-left: 300px;
-    margin-top: 100px;
+    margin: 20px auto;
+    width: 70%;
     padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.button1{
+    background-color: #14aaf5;
+    border-color: #14aaf5;
+    border-radius: 10%;
+    padding: 10px 15px;
+    color: white;
+}
+.button2{
+    background-color: white;
+    border-radius: 10%;
+    padding: 10px 15px;
+    color: lightgray;
 }

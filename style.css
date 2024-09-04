@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root{
     --toboo-blue: #14aaf5;
     --toobo-purple: #ab5de6;
@@ -5,6 +10,8 @@
     --toboo-orange: #ff9b00;
     --toboo-pink: #ec4a9d;
     --toboo-green: #a3d116;
+    --toboo-check: #44cdb5;
+    --toboo-cross: #ff4040;
 }
 body{
     background-color: #f6f8f9;
@@ -19,21 +26,33 @@ img{
     width: 100px;
     padding-right: 10px;
     vertical-align: middle;
+    margin: 10px;
     
     
     
 }
 h1{
     display: inline-block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 70px;
     vertical-align: middle;
 
 }
-/* main setting */
+/* mnav buttton setting*/
 .box1-setting{
     background-color: white;
-    margin: 20px auto;
+    margin: 10px auto;
+    width: 70%;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+.box2-setting{
+    background-color: white;
+    margin: 10px auto;
+    margin-top: 0px auto;
     width: 70%;
     padding-left: 50px;
     padding-top: 30px;
@@ -46,10 +65,97 @@ h1{
     border-radius: 10%;
     padding: 10px 15px;
     color: white;
+    box-shadow: none;
+
 }
 .button2{
     background-color: white;
+    border-color: white;
     border-radius: 10%;
     padding: 10px 15px;
     color: lightgray;
+    box-shadow: none;
 }
+/* lsit setting */
+.list-title{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none;
+    
+}
+.Text-List{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+.li-setting{
+    padding-top: 2rem;
+}
+/* badge setting */
+.Editorial{
+    background-color: var(--toboo-blue);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 0.75rem;
+}
+.QI{
+    background-color: var(--toobo-purple);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 0.75rem;
+}
+.Recruiting{
+    background-color: var(--toboo-lightgreen);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 0.75rem;
+}
+.Mobile{
+    background-color: var(--toboo-orange);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 0.75rem;
+}
+.Website{
+    background-color: var(--toboo-pink);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 0.75rem;
+}
+.Sales{
+    background-color: var(--toboo-green);
+    padding: 5px;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 0.75rem;
+}
+.checkmark{
+    font-size: 0.8rem;
+    display: inline-block;
+    color: var(--toboo-check);
+    border: 1px solid;
+    width: 1.15rem;
+    height: 1.15rem;
+    text-align: center;
+    line-height: 1.15rem;
+    border-radius: 50%;
+    
+}
+.cross{
+    font-size: 0.8rem;
+    display: inline-block;
+    color: var(--toboo-cross);
+    border: 1px solid;
+    width: 1.15rem;
+    height: 1.15rem;
+    text-align: center;
+    line-height: 1.15rem;
+    border-radius: 50%;
+    
+}
+
